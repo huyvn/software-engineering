@@ -1,0 +1,120 @@
+html {
+  overflow-x: hidden;
+}
+
+.largeIcon {
+    font-size: 50px;
+}
+.MediumIcon {
+    font-size: 22px;
+}
+.SmallIcon {
+    font-size: 14px;
+}
+a:hover{
+    color:#c9302c;
+    text-decoration: none;
+}
+
+.nav {
+    height: 50px;
+    background-color: #000000;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 17px;
+}
+.backgroundImage {
+        
+    background-image: url("http://localhost:8084/BIOS_Team/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fontCSS{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px;
+    
+    
+}
+.tableScrollBar{
+    height: 530px;
+    overflow: auto;
+
+}
+#ViewCourseSection {  
+    margin-left: 500px;
+}
+
+.bgcolor{
+	color:#81D8D0;
+}
+
+.fontColor {
+        color:#FFFFFF;
+}
+
+.fontColor2 {
+    color:#ffffff;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15px;
+}
+
+
+
+#slideout {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    width: 35px;
+    padding: 12px 0;
+    text-align: center;
+    background: #6DAD53;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+}
+#slideout_inner {
+    position: fixed;
+    top: 40px;
+    left: -250px;
+    background: #6DAD53;
+    width: 200px;
+    padding: 25px;
+    height: 130px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    text-align: left;
+    -webkit-border-radius: 0 0 5px 0;
+    -moz-border-radius: 0 0 5px 0;
+    border-radius: 0 0 5px 0;
+}
+#slideout_inner textarea {
+    width: 190px;
+    height: 100px;
+    margin-bottom: 6px;
+}
+#slideout:hover {
+    left: 250px;
+}
+#slideout:hover #slideout_inner {
+    left: 0;
+}
+
+.alignment {
+    text-align: right;
+}
+
+.indexScrollBar {
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+.navText {
+    font-size: 12px;
+}
